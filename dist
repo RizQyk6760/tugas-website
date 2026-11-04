@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang "en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width,initial-scale= 0.1" />
+      <tittle>Gunung.id</tittle>
+     <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/icon gunung.png" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="website.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="./assets/gunung sinabung.jpg"
+     
+    />
+  </head>
+  <body id="beranda">
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container">
+        <div class="navbar-box">
+          <div class="logo">
+            <h1>Gunung.id</h1>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="#beranda">Beranda</a>
+            </li>
+            <li>
+              <a href="#tentang">Tentang</a>
+            </li>
+            <li>
+              <a href="#proyek">Proyek</a>
+            </li>
+            <li>
+              <a href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Hero -->
+    <div class="hero">
+      <h1>mengenal berbagai jenis gunung</h1>
+      <p></p>
+      <a href="#tentang">Tentang</a>
+    </div>
+    <!-- Hero -->
+
+    <!-- Tentang -->
+    <div class="tentang" id="tentang">
+      <div class="container">
+        <div class="tentang-box">
+          <div class="box">
+            <img src="./assets/gunung sinabung.jpg" alt="Tentang Image" />
+          </div>
+          <div class="box">
+            <h1>Gunung sinabung</h1>
+            <p>
+             adalah sebuah gunung berapi aktif yang terletak di dataran tinggi Karo, Kabupaten Karo, Provinsi Sumatera Utara. Gunung ini merupakan bagian dari jajaran Pegunungan Bukit Barisan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tentang -->
+
+    <!-- Proyek -->
+    <div class="proyek" id="proyek">
+      <div class="container">
+        <h1>Jenis Jenis Gunung </h1>
+        <div class="proyek-box">
+          <div class="box">
+            <img src="./assets/gunung arjuno.jpg" alt="Proyek Image" />
+            <div class="desc">
+              <h1>Gunung arjuno</h1>
+              <a href="https://id.wikipedia.org/wiki/Gunung_Arjuno">lihat infomasi selengkapnya</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./assets/gunung lawu.jpg" alt="Proyek Image" />
+            <div class="desc">
+              <h1>gunung lawu</h1>
+              <a href="#tentang">lihat infomasi selengkapnya</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./assets/gunung sumbing.jpg" alt="Proyek Image" />
+            <div class="desc">
+              <h1>gunung sumbing</h1>
+              <a href="#">lihat infomasi selengkapnya</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./assets/gunung sumeru.jpg" alt="Proyek Image" />
+            <div class="desc">
+              <h1>gunung sumeru</h1>
+              <a href="#">lihat infomasi selengkapnya</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./assets/gunung rinjani.jpg" alt="Proyek Image" />
+            <div class="desc">
+              <h1>gunung rinjani</h1>
+              <a href="#">lihat infomasi selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Proyek -->
+
+    <!-- Footer -->
+    <footer id="kontak">
+      <p>&copy; Copyright 2025 by <span>Ngoding Mastery.</span></p>
+      <div class="social">
+        <a href="https://api.whatsapp.com/send?phone=6289123456789">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
